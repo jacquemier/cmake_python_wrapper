@@ -14,7 +14,7 @@ Note:  INSTALL_DIR represents your target installation directory
 
     git clone https://github.com/jacquemier/cmake_python_wrapper.git
     mkdir build
-    cmake ../cmake_python_wrapper/v2 -DCMAKE_INSTALL_PREFIX=INSTALL_DIR
+    cmake ../cmake_python_wrapper -DCMAKE_INSTALL_PREFIX=INSTALL_DIR
     make install
 
 
